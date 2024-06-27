@@ -13,7 +13,7 @@ export const TopNavBar = () => {
     <header
       aria-label="Site Header"
       className={cx(
-        "flex lg:h-[130px] items-center border-b-2 border-gray-100 px-3 lg:px-12",
+        "flex  items-center border-b-2 border-gray-100 px-3 lg:px-12",
         isHomePage && "bg-dot"
       )}
     >
